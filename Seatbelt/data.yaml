@@ -1,0 +1,13 @@
+train: ../Seatbelt/train/images
+val: ../Seatbelt/valid/images
+test: ../Seatbelt/test/images
+
+nc: 5
+names: ["1", "2", "person-noseatbelt", "person-seatbelt", "seatbelt"]
+
+roboflow:
+  workspace: karan-panja
+  project: seat-belt-6pyzn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/karan-panja/seat-belt-6pyzn/dataset/1
