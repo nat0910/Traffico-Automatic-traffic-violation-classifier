@@ -1,0 +1,12 @@
+train: ../Helmet/train/images
+val: ../Helmet/valid/images
+
+nc: 2
+names: ['With Helmet', 'Without Helmet']
+
+roboflow:
+  workspace: school-xnydc
+  project: gg-azhep
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-xnydc/gg-azhep/dataset/3
